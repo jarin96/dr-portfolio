@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: whitesmoke;
+    background-color: white;
     margin: 0px;
 }
 h1{
@@ -11,12 +11,16 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
+    background-color: white;
+    
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
     
     
+   
 }
 .half-width img{
     width: 80%;
@@ -37,4 +41,12 @@ section{
     
     background-repeat: no-repeat;
     padding-left: 7px;
+}
+.dream-big{
+    background-image: url(images/dr-sign1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 85px;
+    background-size: 250px;
+    background-color: white;
 }
